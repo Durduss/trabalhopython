@@ -1,0 +1,10 @@
+x = int()
+maior = x
+menor = int(x)
+for x in range(5):
+	x = input('Digite um valor inteiro: ')
+	if x > maior:
+		maior = x
+	if x < menor:
+		menor = x
+print('O maior valor é', maior, 'e o menor valor é', menor)
