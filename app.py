@@ -1,7 +1,10 @@
-numeros_lista = []
+menor_valor = None
+maior_valor = None
+for i in range(5):
+    valor = int(input("Digite um valor inteiro: "))
+    if menor_valor is None or valor < menor_valor:
+        menor_valor = valor
+    else:
+        maior_valor = valor
 
-for numeros in range(5): 
-    numeros_lista.append(int(input('Digite um valor inteiro: ')))
-
-print ('O maior valor é', max(numeros_lista))
-print ('O menor valor é', min(numeros_lista))  
+print('O maior valor é', maior_valor, 'e o menor valor é', menor_valor)
