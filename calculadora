@@ -1,0 +1,14 @@
+a = float(input('Digite o primeiro valor: '))
+b = float(input('Digite o segundo valor: '))
+print('1 – SOMA // 2 – SUBTRAÇÃO // 3 – MULTIPLICAÇÃO // 4 – DIVISÃO')
+ope=input('Informe a operação: ')
+if ope == '1':
+	print(a+b)
+elif ope == '2':
+	print(a-b)
+elif ope == '3':
+	print(a*b)
+elif ope == '4':
+	print(a/b)
+else:
+	print('Operação inválida')
