@@ -1,0 +1,37 @@
+C++
+
+1.
+#include <iostream>
+using namespace std;
+int main() {
+	cout<<"Olá, mundo!";
+}
+
+
+2.
+#include <iostream>
+using namespace std;
+int main() {
+	int x;
+	for(x=1;x<1001;x++){
+	cout<<x<<endl;
+	};
+}
+
+Python
+
+1.
+import time
+tempo_inicial = time.time()
+print('Olá, Mundo!')
+tempo_final = time.time()
+print(float(tempo_final - tempo_inicial))
+
+2.
+import time
+tempo_inicial = time.time()
+x = int()
+for x in range (1, 1001):
+    print(x)
+tempo_final = time.time()
+print(float(tempo_final - tempo_inicial))
